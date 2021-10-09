@@ -10,3 +10,5 @@ with open("Leetcode_Problem_List.csv", "r") as problem_list:
 for problem in problem_dict:
     if problem_dict[problem] > 1:
         print("The {} has a duplicate item in the list".format(problem))
+else:
+    print("The list does not have any Duplicates.")
